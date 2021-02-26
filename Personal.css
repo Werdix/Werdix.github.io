@@ -1,0 +1,261 @@
+@font-face {
+    font-family: "Roboto",sans-serif;
+    src: url(/Personal_web_page-fonts_and_imgs/Roboto-Black.ttf)
+}
+
+@font-face {
+    font-family:"Noto Sans",sans-serif;
+    src :url(/Personal_web_page-fonts_and_imgs/NotoSansJP-Medium.otf)
+}
+
+@font-face {
+    font-family:"Open Sans",sans-serif;
+    src:url(/Personal_web_page-fonts_and_imgs/OpenSans-SemiBold.ttf)
+}
+
+@media screen and (max-width:990px) {
+    .body {
+        background-color: #2b2b2b;
+    }
+
+    .navigator {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url(Personal_web_page-fonts_and_imgs/fl-snip.jpg);
+        background-size: 540px;
+        opacity: 0.7;
+    }
+
+    .navigator a:link, .navigator a:visited {
+        margin-top: 15px;
+    }
+
+    .podklad {
+        margin-right: 20px;
+        margin-left: 20px;
+        background-color: #2b2b2b;
+    }
+    .kurzEnabled{
+        border:solid;
+        border-color:orange ;
+        border-radius: 15px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .kurzEnabled img{
+        max-width: 60%;
+        max-height: 60%;
+        padding-left: 70px;
+        padding-top: 20px;
+    }
+    .btn a:visited, .btn a:link{
+        font-family: "Open Sans",sans-serif;
+        font-size: 18pt;
+        margin-right: 15px;
+        color: whitesmoke;
+        padding: 10px 14px;
+        display: inline-block;
+        text-align: center;
+        letter-spacing: 0.5px;
+        text-decoration: none;
+        border: solid;
+        border-color: #ff9900;
+        border-radius: 30px;
+        transition: all 1s ease-out;
+        width: 120px;
+    }
+    .btn a:active , .btn a:hover{
+        
+        background-color: #ff9900;
+        width: 200px;
+    }
+    audio{
+        padding-left:35px;
+        margin-bottom: 70px;
+    }
+    .kontakt{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:990px) {
+    .navigator a:link, .navigator a:visited {
+        margin-top: 15px;
+    }
+    .podklad {
+        margin-right: 80px;
+        margin-left: 80px;
+        background-color: #2b2b2b;
+    }
+    .navigator{
+        background-image: url(Personal_web_page-fonts_and_imgs/fl-snip.jpg);
+        background-size: 800px; 
+    }
+    .kurzEnabled img{
+        max-width: 60%;
+        max-height: 60%;
+        padding-left: 145px;
+        padding-top: 20px;
+    }
+    .kurzEnabled{
+        border:solid;
+        border-color:orange ;
+        border-radius: 15px;
+        margin-right: 140px;
+        margin-left: 140px;
+    }
+    .btn a:visited, .btn a:link{
+        font-family: "Open Sans",sans-serif;
+        font-size: 18pt;
+        margin-right: 15px;
+        color: whitesmoke;
+        padding: 10px 14px;
+        display: inline-block;
+        text-align: center;
+        letter-spacing: 0.5px;
+        text-decoration: none;
+        border: solid;
+        border-color: #ff9900;
+        border-radius: 30px;
+        transition: all 1s ease-out;
+        width: 120px;
+    }
+    .btn a:active , .btn a:hover{
+        
+        background-color: #ff9900;
+        width: 300px;
+    }
+    audio{
+        padding-left:35px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    .navigator {
+        padding-top: 60px;
+        height: 420px;
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        justify-content: center;
+        background-image: url(Personal_web_page-fonts_and_imgs/fl-snip.jpg);
+        background-size: 950px;
+    }
+   
+    .podklad {
+        background-color: #2b2b2b;
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+    .kontejner{
+        padding: 2px 16px;
+    }
+    .kurzEnabled img{
+        max-width: 60%;
+        max-height: 60%;
+        padding-left: 190px;
+        padding-top: 20px;
+    }
+    .kurzEnabled{
+        border:solid;
+        border-color:orange ;
+        border-radius: 15px;
+        margin-right: 140px;
+        margin-left: 140px;
+    }
+    .btn a:visited, .btn a:link{
+        font-family: "Open Sans",sans-serif;
+        font-size: 18pt;
+        margin-right: 15px;
+        color: whitesmoke;
+        padding: 10px 14px;
+        display: inline-block;
+        text-align: center;
+        letter-spacing: 0.5px;
+        text-decoration: none;
+        border: solid;
+        border-color: #ff9900;
+        border-radius: 30px;
+        transition: all 1s ease-out;
+        width: 120px;
+    }
+    .btn a:active , .btn a:hover{
+        
+        background-color: #ff9900;
+        width: 300px;
+    }
+    audio{
+        padding-left:35px;
+        margin-bottom: 40px;
+    }
+}
+h1, h3{
+    margin-top: 0;
+    padding-left: 25px;
+}
+
+body {
+    font-size: 15pt;
+    background-color: #7a7a7a;
+    color: aliceblue;
+}
+
+
+.body h1 {
+    text-indent: 12px;
+    font-family: "Noto Sans",sans-serif;
+}
+
+.body p {
+    text-indent: 12px;
+    font-family: "Roboto",sans-serif;
+}
+
+.navigator {
+    text-align: center;
+}
+.btn{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.navigator a:visited, .navigator a:link {
+    font-family: "Open Sans",sans-serif;
+    font-size: 18pt;
+    margin-right: 15px;
+    color: whitesmoke;
+    padding: 10px 14px;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    border: solid;
+    border-color: #ff9900;
+    border-radius: 30px;
+}
+
+.navigator a:active ,.navigator a:hover {
+    background-color: #ff9900;
+}
+
+
+.podklad p {
+    margin-left: 60px;
+}
+
+.Jedna a:link, .Jedna a:visited {
+    font-size: 15;
+    font-family: "Roboto", sans-serif;
+    color: orange;
+    background-color: #2b2b2b;
+}
+
+.Jedna a:active ,a:hover {
+    background-color: #2b2b2b;
+}
+
+.footer {
+    text-align: center;
+}
