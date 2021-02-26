@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: "Roboto",sans-serif;
     src: url(/Personal_web_page-fonts_and_imgs/Roboto-Black.ttf)
@@ -11,6 +12,9 @@
 @font-face {
     font-family:"Open Sans",sans-serif;
     src:url(/Personal_web_page-fonts_and_imgs/OpenSans-SemiBold.ttf)
+}
+html{
+   scroll-behavior: smooth; 
 }
 
 @media screen and (max-width:990px) {
