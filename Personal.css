@@ -56,6 +56,12 @@ html{
         padding-left: 70px;
         padding-top: 20px;
     }
+    .kurzEnabled img a:hover, .kurzEnabled img a:active{
+        max-width: 80%;
+        max-height: 80%;
+        padding-left: 70px;
+        padding-top: 20px;
+    }
     .btn a:visited, .btn a:link{
         font-family: "Open Sans",sans-serif;
         font-size: 18pt;
