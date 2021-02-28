@@ -84,7 +84,7 @@ html{
         width: 200px;
     }
     audio{
-        
+        width: 230px;
         margin-bottom: 70px;
     }
     .kontakt{
@@ -107,6 +107,7 @@ html{
     .navigator{
         background-image: url(Personal_web_page-fonts_and_imgs/fl-snip.jpg);
         background-size: 800px; 
+        opacity: 0.7;
     }
     .kurzEnabled img{
         max-width: 60%;
@@ -159,6 +160,7 @@ html{
         justify-content: center;
         background-image: url(Personal_web_page-fonts_and_imgs/fl-snip.jpg);
         background-size: 950px;
+        opacity: 0.7;
     }
    
     .podklad {
